@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Cuando tengas que hacer un debugging sigue este algoritmo
+# - Busca 7 causas posibles del problema
+# - elige las 2 mas probables
+# - Analiza y recopila pruebas de cada una y razones
+# - Implementa el fix
+# - Verifica que funcione, es muy importante que hagas una verificación real.       #  ejecutando el programa en caso de que no esté ejecutado y haciendo una petición #  en caso de portal web o usando la implementación mcp
+# - Si funciona, implementa el fix y documentalo
+# - Si no funciona, sigue debuggeando hasta que lo soluciones
+

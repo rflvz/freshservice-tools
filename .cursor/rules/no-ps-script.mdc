@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+No debes bajo ningun concepto usar powershell para escribir el script que desees escribir con comandos, creas el script con powershell y para añadir el contenido lo haces editandolo en python
+
+- You can @ files here
+- You can use markdown but dont have to

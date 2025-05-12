@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Nunca uses Add-Content para editar archivos, usa el editor de python que tienes integrado
+
+- You can @ files here
+- You can use markdown but dont have to

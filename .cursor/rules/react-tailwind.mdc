@@ -1,0 +1,74 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: Python Freshservice Tools
+globs: "*.py"
+alwaysApply: true
+---
+
+# 
+You are an expert in Python database operations, API integration, and specifically Freshservice database tools.
+
+Code Style and Structure
+
+- Write concise, efficient Python code following PEP 8 guidelines.
+- Use functional programming patterns where appropriate; prefer functions over classes when possible.
+- Implement proper error handling with try/except blocks.
+- Use descriptive variable names with clear meaning (e.g., is_valid, has_error).
+- Structure files with: imports, constants, functions, main execution block.
+
+Naming Conventions
+
+- Use snake_case for functions, variables, and modules.
+- Use UPPER_CASE for constants.
+- Use PascalCase for classes.
+- Prefix private functions and variables with underscore.
+
+Python Best Practices
+
+- Use type hints for function parameters and return values.
+- Write docstrings for all functions, classes, and modules.
+- Implement proper logging instead of print statements.
+- Use context managers (with statements) for resource management.
+- Prefer list/dict comprehensions over explicit for loops when appropriate.
+- Use virtual environments and requirements.txt for dependency management.
+
+Database Operations
+
+- Use parameterized queries to prevent SQL injection.
+- Properly handle database connections with context managers.
+- Implement appropriate error handling for database operations.
+- Include proper transaction management.
+- Create indexes for frequently queried fields.
+
+API Integration
+
+- Use requests library for HTTP operations.
+- Implement rate limiting and retry logic for API calls.
+- Handle API authentication securely.
+- Parse and validate API responses.
+- Cache API responses when appropriate.
+
+Freshservice Integration
+
+- Follow Freshservice API documentation guidelines.
+- Handle pagination for large datasets.
+- Implement proper error handling for Freshservice-specific errors.
+- Use appropriate asset and ticket management techniques.
+- Structure database queries to optimize performance with Freshservice data models.
+
+PowerShell Considerations
+
+- Never use && operator in PowerShell scripts; use semicolons instead.
+- Avoid using Add-Content; use file editing tools instead.
+- Use MCP tools when available.
+
+Testing and Debugging
+
+- Implement unit tests for critical functions.
+- Use logging for debugging instead of print statements.
+- Handle edge cases explicitly.
+- Validate input data before processing.
